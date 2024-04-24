@@ -1,0 +1,242 @@
+.home-container{
+    background:linear-gradient(180deg, #262946 22%,#dae4e7 22% 100%);
+    color: #ffffff;
+    overflow-x: hidden;
+    width: 100%;
+    margin-left: 80px;
+   
+}
+.show-more-bg{
+    background:linear-gradient(180deg, #262946 6%,#dae4e7 6% 100%);
+}
+.sidebar-margin{
+    margin-left: 150px;
+}
+.home-main-container{
+    display: flex;
+}
+.side-container{
+    display: block;
+    width: fit-content;
+}
+.date-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.date-container{
+    margin-right: 30px;
+}
+.date-container > * {
+    margin-left: 7px;
+}
+.info-container h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.info-container p{
+    font-size: 13px;
+    color:gray;
+}
+.libary-container{
+    background-color: #ffffff;
+    width: 220px;
+    height: 180px;
+    border-radius: 10px;
+}
+.libary-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    box-shadow: 0px 2px 10px 0px #262946;
+    margin-left: 30px;
+}
+.libary-container h4{
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+.libary-container p{
+    color: gray;
+}
+.libary-main-container{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.result-data-container{
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: 0px 2px 7px 0px #bfbfbf;
+}
+.result-data-container img{
+    height: 150px;
+    width: 100%;
+}
+.result-data-container h6{
+    color: black;
+    font-weight: 550;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.result-data-container p{
+    font-size: small;
+    color: gray;
+    margin-left: 10px;
+}
+.more-items-container{
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    
+}
+.bottom-container{
+    display: flex;
+}
+.splide-container{
+    background-color: #ffffff;
+    height: 300px;
+    
+    overflow: hidden;
+    margin:30px;
+}
+.spider-height{
+    height: 100px;
+    margin: 10px;
+}
+.splide-main{
+    height: 300px;
+    background-color: transparent;
+    
+}
+
+.botton-first-container{
+    background-color: #ffffff;
+    width: 75%;
+    margin-left: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px 0px #262946;
+    border-radius: 15px;
+    height: 70%;
+
+}
+
+.about-button{
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid ;
+    display: flex;
+    justify-content:flex-end;
+    border-color: #262946;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, transparent 50%, #262946 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: background-position 1s ease-out;
+    
+}
+.plus-spam{
+    background-color: #262946;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    border-radius: 50%;
+    border: none;
+    
+    
+}
+
+button{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    width: fit-content;
+    color: black;
+    font-size: 18px;
+}
+.about-button:hover{
+    background-position: right bottom;
+    button{
+        color: #ffffff;
+    }
+    
+}
+.bottom-second-container{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    color: black;
+    width: 20%;
+    padding: 20px;
+    box-shadow: 0px 2px 10px 0px #262946;
+    border-radius: 15px;
+}
+.recent-container{
+    display: flex;
+    justify-content: center;
+}
+.recent-container p{
+    color: #0c65b9;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.recent-container select{
+    font-weight: 550;
+}
+.none{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+}
+.recent-info p{
+    font-size: 13px;
+    color: #acaaaa;
+
+}
+.recent-info h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+.date-info{
+    color: #0c65b9;
+    font-size: 13px;
+}
+.line{
+    color:#232322;
+    background-color: #232322;
+    border-color: #232322;
+    height: 250px;
+    width:0.5px;
+    margin-top: 0px;
+}
+.line-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
