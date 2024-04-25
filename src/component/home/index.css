@@ -240,3 +240,47 @@ button{
     align-items: center;
     margin: 10px;
 }
+
+@media screen and (max-width: 576px) {
+    
+
+   
+
+    .sidebar-margin {
+        margin-left: 10px; 
+    }
+
+    .bottom-second-container,
+    .botton-first-container {
+        width: 100%; 
+    }
+
+    .recent-info p {
+        font-size: 12px; 
+    }
+
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .sidebar-margin {
+        margin-left: 100px; 
+    }
+
+    .bottom-second-container,
+    .botton-first-container {
+        width: 75%; 
+    }
+
+    
+}
+
+
+@media screen and (min-width: 992px) {
+    .sidebar-margin {
+        margin-left: 150px; 
+    }
+
+    
+}
