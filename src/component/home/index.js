@@ -23,7 +23,7 @@ const Home = () => {
     },10000);
     return ()=> clearInterval(dateInterval)
 
-  },[]);
+  },[date]);
 
   const fetchData = async () => {
     try {
@@ -53,11 +53,11 @@ const Home = () => {
       console.error('Error in fetchData:', error);
   });
 
-  },[resultData])
+  },[])
    
   const today = date.getDate()
   const dayName = date.toLocaleString('en-US', { weekday: 'long' });
-  const time =date.getHours() +':'+date.getMinutes()
+  const time =date.getHours() +':'+date.getMinutes() +':'+date.getSeconds()
   
   return (
     <div className='home-main-container'>
